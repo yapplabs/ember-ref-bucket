@@ -1,0 +1,10 @@
+<div
+  class="my-input"
+  {{on 'click' this.focusInput}}
+  ...attributes>
+  <input
+    type="text"
+    value={{this.value}}
+    {{create-ref "my-input"}}
+  />
+</div>
